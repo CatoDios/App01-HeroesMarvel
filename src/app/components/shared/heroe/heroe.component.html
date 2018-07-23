@@ -1,0 +1,9 @@
+<div class="card margen_abajo" style="width: 18rem;">
+    <img class="card-img-top" src="{{heroe.img}}" alt="Card image cap">
+    <div class="card-body">
+        <h2 class="centrar">{{heroe.nombre}}</h2>
+        <p class="centrar">{{heroe.aparicion | date:"y"}}</p>
+        <p class="card-text centrar">{{heroe.bio}}</p>
+        <button (click)="regresar()" class="btn btn-block btn-outline-danger">Regresar</button>
+    </div>
+</div>
