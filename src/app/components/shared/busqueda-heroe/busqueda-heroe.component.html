@@ -1,5 +1,4 @@
-<div class="card-columns margen_top container">
-
+<div class="card-columns margen_top margen_abajo container">
 
     <div class="card " *ngFor="let heroe of heroes; let i=index">
 
@@ -12,6 +11,6 @@
         <button (click)="verHeroe(heroe.id)" type="button" class="btn btn-outline-primary btn-block">Ver mas..</button>
 
         <!--         <a [routerLink]="['/heroe',i]" class="btn btn-outline-primary btn-block">Ver más...</a>
- -->
+-->
     </div>
 </div>
